@@ -29,8 +29,7 @@ void setup() {
 /*
  * Startup Screen
  */
-void loop(){
-}
+
  unsigned long testFillScreen() {
   unsigned long start = micros();
   tft.setRotation(1);
@@ -117,4 +116,6 @@ unsigned long testText() {
   
   return micros()-start;
   
+}
+void loop(){
 }
