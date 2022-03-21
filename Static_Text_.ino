@@ -39,25 +39,21 @@ void loop(){
   tft.setCursor(60, 100);
   tft.setTextColor(ILI9341_WHITE);  tft.setTextSize(3);
   tft.println("Welcome!");
-  yield();
  
   tft.fillScreen(ILI9341_RED);
   tft.setCursor(60, 100);
   tft.setTextColor(ILI9341_WHITE);  tft.setTextSize(3);
   tft.println("Welcome!");
-  yield();
  
   tft.fillScreen(ILI9341_GREEN);
   tft.setCursor(60, 100);
   tft.setTextColor(ILI9341_WHITE);  tft.setTextSize(3);
   tft.println("Welcome!");
-  yield();
  
   tft.fillScreen(ILI9341_BLUE);
   tft.setCursor(60, 100);
   tft.setTextColor(ILI9341_WHITE);  tft.setTextSize(3);
   tft.println("Welcome!");
-  yield();
  
   tft.fillScreen(ILI9341_BLACK);
   tft.setCursor(60, 100);
